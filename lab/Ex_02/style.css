@@ -1,0 +1,80 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0c3866;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(54deg,#0c3866 34%, #4a4cb3);
+    height: 100vh;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 6px 10px 6px;
+    margin: 6px 0px 12px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid darkslategrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgrey;
+}
+
+input[value=Login]{
+    color: black;
+}
+
+#big {
+    display: grid;
+    height: 100vh;
+}
+
+#left {
+    flex:1;
+    position: absolute;
+    top: 50%;
+    padding-left: 50px;
+}
+
+#right {
+    flex:1;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    padding-right: 30px;
+}
+
+h1, p{
+    color:white;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+#login_box {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 40px 35px 30px;
+    width: 500px;
+    margin-left: 50%;
+    color: dimgrey;
+}
+
